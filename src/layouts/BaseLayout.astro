@@ -1,0 +1,30 @@
+---
+import type { MarkdownLayoutProps } from "astro";
+
+type Props = MarkdownLayoutProps<{
+  title: string;
+  author: string;
+}>;
+
+import "~/styles/tufte.css";
+
+const { frontmatter } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{frontmatter.title}</title>
+  </head>
+  <body>
+    <main>
+      <h1>{frontmatter.title}</h1>
+      <h2>{frontmatter.author}</h2>
+      <article>
+        <slot />
+      </article>
+    </main>
+  </body>
+</html>
