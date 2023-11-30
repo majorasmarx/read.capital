@@ -1,4 +1,6 @@
 {
   // the markdown validator doesn't understand [^2] footnote references, apparently
   "markdown.validate.referenceLinks.enabled": "ignore",
+  "prettier.documentSelectors": ["**/*.astro"],
+  "[astro]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
 }
