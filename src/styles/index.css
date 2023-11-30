@@ -1,6 +1,37 @@
-/* un-reset ordered list style (reset by tailwind, i think). */
-section[data-footnotes] ol li {
-  list-style-type: decimal;
+/*
+  nicer "outside" list style
+  (from https://css-tricks.com/list-style-recipes/#inside-vs-outside)
+*/
+section[data-footnotes] > ol {
+  counter-reset: li;
+}
+
+section[data-footnotes] > ol > li {
+  counter-increment: li;
+}
+
+@supports (grid-template-columns: subgrid) {
+  section[data-footnotes] > ol {
+    display: grid;
+    /* added a third column here to shrink the footnote column a bit */
+    grid-template-columns: min-content 1fr 1.6em;
+    row-gap: 1em;
+  }
+  section[data-footnotes] > ol > li {
+    grid-column: 1 / -2;
+    display: grid;
+    grid-template-columns: subgrid;
+  }
+}
+section[data-footnotes] > ol > li::before {
+  content: counter(li) ".";
+  margin-right: 0.6rem;
+  text-align: end;
+}
+
+/* unset margin so that the text lines up with the element */
+section[data-footnotes] > ol > li > p {
+  margin: 0;
 }
 
 /* highlight selected footnote. we use position:relative and a pseudo to avoid shifting content. */
@@ -8,16 +39,15 @@ section[data-footnotes] ol > li:target {
   position: relative;
 }
 
-section[data-footnotes] ol > li:target::before {
+section[data-footnotes] ol > li:target::after {
   position: absolute;
-  border-radius: 0.6em;
+  border-radius: 0.4em;
   z-index: -1;
   content: "";
   background: #222;
-  top: -0.6em;
-  bottom: -0.6em;
-  right: -1.2em;
 
-  /* extend an additional amount leftwards to cover the marker (the footnote number), which is pulled left. */
-  left: -2.4em;
+  top: -0.4em;
+  bottom: -0.4em;
+  right: -0.4em;
+  left: -0.4em;
 }
