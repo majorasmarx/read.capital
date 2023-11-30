@@ -1,0 +1,23 @@
+/* un-reset ordered list style (reset by tailwind, i think). */
+section[data-footnotes] ol li {
+  list-style-type: decimal;
+}
+
+/* highlight selected footnote. we use position:relative and a pseudo to avoid shifting content. */
+section[data-footnotes] ol > li:target {
+  position: relative;
+}
+
+section[data-footnotes] ol > li:target::before {
+  position: absolute;
+  border-radius: 0.6em;
+  z-index: -1;
+  content: "";
+  background: #222;
+  top: -0.6em;
+  bottom: -0.6em;
+  right: -1.2em;
+
+  /* extend an additional amount leftwards to cover the marker (the footnote number), which is pulled left. */
+  left: -2.4em;
+}
