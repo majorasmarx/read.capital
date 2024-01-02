@@ -71,7 +71,6 @@
   font-display: swap;
 }
 
-/* Tufte CSS styles */
 html {
   font-size: 15px;
 }
@@ -86,7 +85,6 @@ body {
   max-width: 100ch;
 }
 
-/* Adds dark mode */
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #151515;
@@ -218,12 +216,6 @@ img {
     width: 97%;
   }
 
-  section > dl,
-  section > ol,
-  section > ul {
-    width: 90%;
-  }
-
   figure {
     max-width: 90%;
   }
@@ -253,5 +245,13 @@ img {
 
   img {
     width: 100%;
+  }
+}
+
+@media (min-width: 761px) {
+  section > dl,
+  section > ol,
+  section > ul {
+    width: 90%;
   }
 }

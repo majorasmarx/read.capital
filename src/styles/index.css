@@ -1,5 +1,5 @@
 /*
-  nicer "outside" list style
+  nicer "outside" list style using grids
   (from https://css-tricks.com/list-style-recipes/#inside-vs-outside)
 */
 section[data-footnotes] > ol {
@@ -13,12 +13,11 @@ section[data-footnotes] > ol > li {
 @supports (grid-template-columns: subgrid) {
   section[data-footnotes] > ol {
     display: grid;
-    /* added a third column here to shrink the footnote column a bit */
-    grid-template-columns: min-content 1fr 1.6em;
+    grid-template-columns: min-content 1fr;
     row-gap: 1em;
   }
   section[data-footnotes] > ol > li {
-    grid-column: 1 / -2;
+    grid-column: 1 / -1;
     display: grid;
     grid-template-columns: subgrid;
   }
