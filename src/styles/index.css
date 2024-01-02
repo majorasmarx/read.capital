@@ -44,10 +44,17 @@ section[data-footnotes] ol > li:target::after {
   border-radius: 0.4em;
   z-index: -1;
   content: "";
-  background: #222;
 
   top: -0.4em;
   bottom: -0.4em;
   right: -0.4em;
   left: -0.4em;
+
+  background: #eee;
+}
+
+@media (prefers-color-scheme: dark) {
+  section[data-footnotes] ol > li:target::after {
+    background-color: #222;
+  }
 }
