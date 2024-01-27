@@ -1,0 +1,28 @@
+---
+import Head from "~/components/head.astro";
+
+import { compiledContent as fowkes } from "./capital-fowkes-ch1.md";
+import { compiledContent as mooreAveling } from "./capital-moore-aveling-ch1.md";
+
+// FIXME: use cheerio or whatever to rewrite footnote references to be unique!
+
+import "~/styles/tufte.css";
+import "~/styles/index.css";
+
+import "katex/dist/katex.css";
+---
+
+<html lang="en">
+  <head>
+    <Head title="Capital: Compare Translations" />
+  </head>
+  <body class="max-w-screen-2xl">
+    <main>
+      <h1 class="text-7xl">Capital: Compare Translations</h1>
+      <div class="flex flex-row gap-12">
+        <div set:html={fowkes()} />
+        <div set:html={mooreAveling()} />
+      </div>
+    </main>
+  </body>
+</html>
