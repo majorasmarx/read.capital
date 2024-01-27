@@ -7,7 +7,7 @@ export default defineConfig({
   site: "https://read.capital",
   integrations: [tailwind()],
   markdown: {
-    remarkPlugins: ["remark-math"],
+    remarkPlugins: ["remark-math", "remark-toc"],
     rehypePlugins: ["rehype-katex"],
   },
 });

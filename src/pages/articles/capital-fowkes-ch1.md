@@ -3,6 +3,9 @@ layout: ~/layouts/BaseLayout.astro
 title: "Capital, Chapter 1: The Commodity"
 author: "Karl Marx"
 ---
+## Contents
+
+
 ## 1. THE TWO FACTORS OF THE COMMODITY: USE-VALUE AND VALUE (SUBSTANCE OF VALUE, MAGNITUDE OF VALUE)
 
 The wealth of societies in which the capitalist mode of production prevails appears as an ‘immense collection of commodities’[^1]; the individual commodity appears as its elementary form. Our investigation therefore begins with the analysis of the commodity.
