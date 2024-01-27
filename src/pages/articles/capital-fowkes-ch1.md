@@ -7,6 +7,7 @@ author: "Karl Marx"
 
 ## Contents
 
+<!-- This section will be automatically replaced by the `remark-toc` plugin. -->
 
 ## 1. THE TWO FACTORS OF THE COMMODITY: USE-VALUE AND VALUE (SUBSTANCE OF VALUE, MAGNITUDE OF VALUE)
 
