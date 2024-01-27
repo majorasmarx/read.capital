@@ -1,6 +1,8 @@
 /*
   nicer "outside" list style using grids
   (from https://css-tricks.com/list-style-recipes/#inside-vs-outside)
+
+  ol is the entire footnotes section; each li is a single footnote.
 */
 section[data-footnotes] > ol {
   counter-reset: li;
@@ -20,6 +22,10 @@ section[data-footnotes] > ol > li {
     grid-column: 1 / -1;
     display: grid;
     grid-template-columns: subgrid;
+  }
+
+  section[data-footnotes] > ol > li > * {
+    grid-column: 2 / -1;
   }
 }
 section[data-footnotes] > ol > li::before {
