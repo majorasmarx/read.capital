@@ -1,8 +1,10 @@
 ---
 layout: ~/layouts/BaseLayout.astro
-title: "Capital, Chapter 1: The Commodity"
+title: "Capital"
 author: "Karl Marx"
 ---
+# Chapter 1: The Commodity
+
 ## Contents
 
 
