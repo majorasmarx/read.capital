@@ -24,6 +24,10 @@ section[data-footnotes] > ol > li {
     grid-template-columns: subgrid;
   }
 
+  /*
+    this part is added to support multiple paragraphs in footnotes -- otherwise
+    they alternate between the left and right columns.
+  */
   section[data-footnotes] > ol > li > * {
     grid-column: 2 / -1;
   }
