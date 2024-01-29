@@ -1,10 +1,54 @@
 ---
 import Head from "~/components/head.astro";
 
-import { compiledContent as fowkes } from "./capital-fowkes-ch1.md";
-import { compiledContent as mooreAveling } from "./capital-moore-aveling-ch1.md";
+import { compiledContent as doc1 } from "./capital-fowkes-ch1.md";
+import { compiledContent as doc2 } from "./capital-moore-aveling-ch1.md";
 
-// FIXME: use cheerio or whatever to rewrite footnote references to be unique!
+import { load } from "cheerio";
+
+const $1 = load(doc1());
+const $2 = load(doc2());
+
+// we need to introduce a disambiguation prefix to anchors of one or the other
+// document, since the merged html documents might have the same ids.
+const PREFIX = "doc2-";
+
+$2("*[id]").each((_, el) => {
+  const e = $2(el);
+  const id = e.attr("id");
+
+  // css styling of toc relies on "#contents + ul" selector (see index.css),
+  // so skip it.
+  if (id === "contents") return;
+
+  e.attr("id", `${PREFIX}${id}`);
+});
+
+$2("a[href]").each((_, el) => {
+  const e = $2(el);
+  const href = e.attr("href");
+
+  const parts = href!.split("#");
+  parts[parts.length - 1] = `${PREFIX}${parts[parts.length - 1]}`;
+  const adjustedHref = parts.join("#");
+
+  e.attr("href", adjustedHref);
+});
+
+const adjustedDoc2 = $2("body").html();
+
+const len1 = $1("body > *").length;
+const len2 = $2("body > *").length;
+
+if (len1 !== len2) {
+  console.warn("doc 1 and doc 2 have different lengths:", len1, len2);
+  console.warn(
+    "the longest length will be used, but the document" +
+      "side-by-side comparison may be misaligned.",
+  );
+}
+
+const maxLen = Math.max(len1, len2);
 
 import "~/styles/tufte.css";
 import "~/styles/index.css";
@@ -15,13 +59,32 @@ import "katex/dist/katex.css";
 <html lang="en">
   <head>
     <Head title="Capital: Compare Translations" />
+    <style define:vars={{ maxLen }}>
+      .mygrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /*
+          it seems like subgrids can't create new implicit rows in the parent
+          grid, so we need a definite number of rows. we could just select a
+          huge number... but since we have access to the documents, we can
+          count ahead of time instead.
+        */
+        grid-template-rows: repeat(var(--maxLen), max-content);
+      }
+
+      .mysubgrid {
+        grid-row: 1 / -1;
+        display: grid;
+        grid-template-rows: subgrid;
+      }
+    </style>
   </head>
   <body class="max-w-screen-2xl">
     <main>
       <h1 class="text-7xl">Capital: Compare Translations</h1>
-      <div class="flex flex-row gap-12">
-        <div set:html={fowkes()} />
-        <div set:html={mooreAveling()} />
+      <div class="gap-x-12 mygrid">
+        <div class="mysubgrid" set:html={doc1()} />
+        <div class="mysubgrid" set:html={adjustedDoc2} />
       </div>
     </main>
   </body>
