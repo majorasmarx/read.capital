@@ -99,7 +99,7 @@ The simplest value-relation is evidently that of one commodity to another commod
 
 (20 yards of linen = 1 coat, or: 20 yards of linen are worth 1 coat)
 
-#### (1) *The two poles of the expression of value: the relative form of value and the equivalent form*
+#### (1) The two poles of the expression of value: the relative form of value and the equivalent form
 
 The whole mystery of the form of value lies hidden in this simple form. Our real difficulty, therefore, is to analyse it.
 
@@ -111,9 +111,9 @@ Of course, the expression 20 yards of linen = 1 coat, or 20 yards of linen are w
 
 Whether a commodity is in the relative form or in its opposite, the equivalent form, entirely depends on its actual position in the expression of value. That is, it depends on whether it is the commodity whose value is being expressed, or the commodity in which value is being expressed.
 
-#### (2) *The relative form of value*
+#### (2) The relative form of value
 
-##### (i) *The content of the relative form of value*
+##### (i) The content of the relative form of value
 
 In order to find out how the simple expression of the value of a commodity lies hidden in the value-relation between two commodities, we must, first of all, consider the value-relation quite independently of its quantitative aspect. The usual mode of procedure is the precise opposite of this: nothing is seen in the value-relation but the proportion in which definite quantities of two sorts of commodity count as equal to each other. It is overlooked that the magnitudes of different things only become comparable in quantitative terms when they have been reduced to the same unit. Only as expressions of the same unit do they have a common denominator, and are therefore commensurable magnitudes.[^17]
 
@@ -137,7 +137,7 @@ We see, then, that everything our analysis of the value of commodities previousl
 
 By means of the value-relation, therefore, the natural form of commodity B becomes the value-form of commodity A, in other words the physical body of commodity B becomes a mirror for the value of commodity A.[^19] Commodity A, then, in entering into a relation with commodity B as an object of value \[*Wertkörper*], as a materialization of human labour, makes the use-value B into the material through which its own value is expressed. The value of commodity A, thus expressed in the use-value of commodity B, has the form of relative value.
 
-##### (ii) *The quantitative determinacy of the relative form of value*
+##### (ii) The quantitative determinacy of the relative form of value
 
 Every commodity whose-value is to be expressed is a useful object of a given quantity, for instance 15 bushels of corn, or 100 lb. of coffee. A given quantity of any commodity contains a definite quantity of human labour. Therefore the form of value must not only express value in general, but also quantitatively determined value, i.e. the magnitude of value. In the value-relation of commodity A to commodity B, of the linen to the coat, therefore, not only is the commodity-type coat equated with the linen in qualitative terms as an object of value as such, but also a definite quantity of the object of value or equivalent, 1 coat for example, is equated with a definite quantity of linen, such as 20 yards. The equation 20 yards of linen = 1 coat, or 20 yards of linen are worth 1 coat, presupposes the presence in 1 coat of exactly as much of the substance of value as there is in 20 yards of linen, implies therefore that the quantities in which the two commodities are present have cost the same amount of labour or the same quantity of labour-time. But the labour-time necessary for the production of 20 yards of linen or 1 coat varies with every change in the productivity of the weaver or the tailor. The influence of such changes on the relative expression of the magnitude of value must now be investigated more closely.
 
@@ -153,7 +153,7 @@ IV. The labour-time necessary for the production respectively of the linen and t
 
 Thus real changes in the magnitude of value are neither unequivocally nor exhaustively reflected in their relative expression, or, in other words, in the magnitude of the relative value. The relative value of a commodity may vary, although its value remains constant. Its relative value may remain constant, although its value varies; and finally, simultaneous variations in the magnitude of its value and in the relative expression of that magnitude do not by any means have to correspond at all points.[^21]
 
-##### (iii) *The equivalent form*
+##### (iii) The equivalent form
 
 We have seen that a commodity A (the linen), by expressing its value in the use-value of a commodity B of a different kind (the coat), impresses upon the latter a form of value peculiar to it, namely that of the equivalent. The commodity linen brings to view its own existence as a value through the fact that the coat can be equated with the linen although it has not assumed a form of value distinct from its own physical form. The coat is directly exchangeable with the linen; in this way the linen in fact expresses its own existence as a value \[*Wertsein*]. The equivalent form of a commodity, accordingly, is the form in which it is directly exchangeable with other commodities.
 
@@ -199,7 +199,7 @@ Aristotle therefore himself tells us what prevented any further analysis: the la
 
 However, Aristotle himself was unable to extract this fact, that, in the form of commodity-values, all labour is expressed as equal human labour and therefore as labour of equal quality, by inspection from the form of value, because Greek society was founded on the labour of slaves, hence had as its natural basis the inequality of men and of their labour-powers. The secret of the expression of value, namely the equality and equivalence of all kinds of labour because and in so far as they are human labour in general, could not be deciphered until the concept of human equality had already acquired the permanence of a fixed popular opinion. This however becomes possible only in a society where the commodity-form is the universal form of the product of labour, hence the dominant social relation is the relation between men as possessors of commodities. Aristotle’s genius is displayed precisely by his discovery of a relation of equality in the value-expression of commodities. Only the historical limitation inherent in the society in which he lived prevented him from finding out what ‘in reality’ this relation of equality consisted of.
 
-##### (iv) *The simple form of value considered as a whole*
+##### (iv) The simple form of value considered as a whole
 
 A commodity’s simple form of value is contained in its value-relation with another commodity of a different kind, i.e. in its exchange relation with the latter. The value of commodity A is qualitatively expressed by the direct exchangeability of commodity B with commodity A. It is quantitatively expressed by the exchangeability of a specific quantity of commodity B with a given quantity of A. In other words, the value of a commodity is independently expressed through its presentation \[*Darstellung*] as ‘exchange-value’. When, at the beginning of this chapter, we said in the customary manner that a commodity is both a use-value and an exchange-value, this was, strictly speaking, wrong. A commodity is a use-value or object of utility, and a ‘value’. It appears as the twofold thing it really is as soon as its value possesses its own particular form of manifestation, which is distinct from its natural form. This form of manifestation is exchange-value, and the commodity never has this form when looked at in isolation, but only when it is in a value-relation or an exchange relation with a second commodity of a different kind. Once we know this, our manner of speaking does no harm; it serves, rather, as an abbreviation.
 
@@ -221,17 +221,17 @@ Nevertheless, the simple form of value automatically passes over into a more com
 
 (20 yards of linen = 1 coat or = 10 lb. tea or = 40 lb. coffee or = 1 quarter of corn or = 2 ounces of gold or = ½ ton of iron or = etc.)
 
-#### (1) *The expanded relative form of value*
+#### (1) The expanded relative form of value
 
 The value of a commodity, the linen for example, is now expressed in terms of innumerable other members of the world of commodities. Every other physical commodity now becomes a mirror of the linen’s value.[^25] It is thus that this value first shows itself as being, in reality, a congealed quantity of undifferentiated human labour. For the labour which creates it is now explicitly presented as labour which counts as the equal of every other sort of human labour, whatever natural form it may possess, hence whether it is objectified in a coat, in corn, in iron, or in gold. The linen, by virtue of the form of value, no longer stands in a social relation with merely one other kind of commodity, but with the whole world of commodities as well. As a commodity it is a citizen of that world. At the same time, the endless series of expressions of its value implies that, from the point of view of the value of the commodity, the particular form of use-value in which it appears is a matter of indifference.
 
 In the first form, 20 yards of linen = 1 coat, it might well be a purely accidental occurrence that these two commodities are exchangeable in a specific quantitative relation. In the second form, on the contrary, the background to this accidental appearance, essentially different from it, and determining it, immediately shines through. The value of the linen remains unaltered in magnitude, whether expressed in coats, coffee, or iron, or in innumerable different commodities, belonging to as many different owners. The accidental relation between two individual commodity-owners disappears. It becomes plain that it is not the exchange of commodities which regulates the magnitude of their values, but rather the reverse, the magnitude of the value of commodities which regulates the proportion in which they exchange.
 
-#### (2) *The particular equivalent form*
+#### (2) The particular equivalent form
 
 Each commodity, such as coat, tea, iron, etc., figures in the expression of value of the linen as an equivalent, hence as a physical object possessing value. The specific natural form of each of these commodities is now a particular equivalent form alongside many others. In the same way, the many specific, concrete, and useful kinds of labour contained in the physical commodities now count as the same number of particular forms of realization or manifestation of human labour in general.
 
-#### (3) *Defects of the total or expanded form of value*
+#### (3) Defects of the total or expanded form of value
 
 Firstly, the relative expression of value of the commodity is incomplete, because the series of its representations never comes to an end. The chain, of which each equation of value is a link, is liable at any moment to be lengthened by a newly created commodity, which will provide the material for a fresh expression of value. Secondly, it is a motley mosaic of disparate and unconnected expressions of value. And lastly, if, as must be the case, the relative value of each commodity is expressed in this expanded form, it follows that the relative form of value of each commodity is an endless series of expressions of value which are all different from the relative form of value of every other commodity. The defects of the expanded relative form of value are reflected in the corresponding equivalent form. Since the natural form of each particular kind of commodity is one particular equivalent form amongst innumerable other equivalent forms, the only equivalent forms which exist are limited ones, and each of them excludes all the others. Similarly, the specific, concrete, useful kind of labour contained in each particular commodity-equivalent is only a particular kind of labour and therefore not an exhaustive form of appearance of human labour in general. It is true that the completed or total form of appearance of human labour is constituted by the totality of its particular forms of appearance. But in that case it has no single, unified form of appearance.
 
@@ -265,7 +265,7 @@ $$
 \right\}=\text{20 yards of linen}
 $$
 
-#### (1) *The changed character of the form of value*
+#### (1) The changed character of the form of value
 
 The commodities now present their values to us, (1) in a simple form, because in a single commodity; (2) in a unified form, because in the same commodity each time. Their form of value is simple and common to all, hence general.
 
@@ -285,7 +285,7 @@ The general relative form of value imposes the character of universal equivalent
 
 The general value-form, in which all the products of labour are presented as mere congealed quantities of undifferentiated human labour, shows by its very structure that it is the social expression of the world of commodities. In this way it is made plain that within this world the general human character of labour forms its specific social character.
 
-#### (2) *The development of the relative and equivalent forms of value: their interdependence*
+#### (2) The development of the relative and equivalent forms of value: their interdependence
 
 The degree of development of the relative form of value, and that of the equivalent form, correspond. But we must bear in mind that the development of the equivalent form is only the expression and the result of the development of the relative form.
 
@@ -301,7 +301,7 @@ Finally, the last form, C, gives to the world of commodities a general social re
 
 The commodity that figures as universal equivalent is on the other hand excluded from the uniform and therefore universal relative form of value. If the linen, or any other commodity serving as universal equivalent, were, at the same time, to share in the relative form of value, it would have to serve as its own equivalent. We should then have: 20 yards of linen = 20 yards of linen, a tautology in which neither the value nor its magnitude is expressed. In order to express the relative value of the universal equivalent, we must rather reverse the form C. This equivalent has no relative form of value in common with other commodities; its value is, rather, expressed relatively in the infinite series of all other physical commodities. Thus the expanded relative form of value, or form B, now appears as the specific relative form of value of the equivalent commodity.
 
-#### (3) *The transition from the general form of value to the money form*
+#### (3) The transition from the general form of value to the money form
 
 The universal equivalent form is a form of value in general. It can therefore be assumed by any commodity. On the other hand, a commodity is only to be found in the universal equivalent form (form C) if, and in so far as, it is excluded from the ranks of all other commodities, as being their equivalent. Only when this exclusion becomes finally restricted to a specific kind of commodity does the uniform relative form of value of the world of commodities attain objective fixedness and general social validity.
 
