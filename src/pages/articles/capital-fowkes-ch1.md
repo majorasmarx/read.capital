@@ -183,14 +183,12 @@ The two peculiarities of the equivalent form we have just developed will become 
 
 In the first place, he states quite clearly that the money-form of the commodity is only a more developed aspect of the simple form of value, i.e. of the expression of the value of a commodity in some other commodity chosen at random, for he says:
 
-5 beds = 1 house
-
+5 beds = 1 house \
 (Κλĩναι πέντε άντἱ οἰχίας)
 
 is indistinguishable from
 
-5 beds = a certain amount of money
-
+5 beds = a certain amount of money \
 (Κλĩναι πέντε άντἱ… ὅσου αἱ πέντε χλĩναι)
 
 He further sees that the value-relation which provides the framework for this expression of value itself requires that the house should be qualitatively equated with the bed, and that these things, being distinct to the senses, could not be compared with each other as commensurable magnitudes if they lacked this essential identity. ‘There can be no exchange,’ he says, ‘without equality, and no equality without commensurability’ (‘οűτ’ ἰɛοτης μή οὕɛης ɛνμμετρἰας’). Here, however, he falters, and abandons the further analysis of the form of value. ‘It is, however, in reality, impossible (“τῆ μέν οὕν ἀληθεἰᾳ ἀδύνατον”) that such unlike things can be commensurable,’ i.e. qualitatively equal. This form of equation can only be something foreign to the true nature of the things, it is therefore only ‘a makeshift for practical purposes’.[^ast8]
