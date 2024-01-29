@@ -181,12 +181,6 @@ li li {
   padding-left: 1.5rem;
 }
 
-#contents + ul {
-  padding: 2rem;
-  border-radius: 1rem;
-  background-color: rgba(128, 128, 128, 0.1);
-}
-
 blockquote p {
   width: 55%;
   margin-right: 40px;

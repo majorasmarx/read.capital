@@ -67,3 +67,9 @@ section[data-footnotes] ol > li:target::after {
     background-color: #222;
   }
 }
+
+#contents + ul {
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: rgba(128, 128, 128, 0.1);
+}
