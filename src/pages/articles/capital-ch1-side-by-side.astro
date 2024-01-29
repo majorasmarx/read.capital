@@ -9,6 +9,10 @@ import { load } from "cheerio";
 const $1 = load(doc1());
 const $2 = load(doc2());
 
+// TODO: move titles to frontmatter and avoid doing brittle dom manipulation
+$1("h1").first().text("Ben Fowkes Translation");
+$2("h1").first().text("Moore and Aveling Translation");
+
 // we need to introduce a disambiguation prefix to anchors of one or the other
 // document, since the merged html documents might have the same ids.
 const PREFIX = "doc2-";
@@ -35,6 +39,7 @@ $2("a[href]").each((_, el) => {
   e.attr("href", adjustedHref);
 });
 
+const adjustedDoc1 = $1("body").html();
 const adjustedDoc2 = $2("body").html();
 
 const len1 = $1("body > *").length;
@@ -79,11 +84,13 @@ import "katex/dist/katex.css";
       }
     </style>
   </head>
-  <body class="max-w-screen-2xl">
+  <body class="px-2 xl:px-0 max-w-screen-2xl">
     <main>
-      <h1 class="text-7xl">Capital: Compare Translations</h1>
+      <h1 class="text-7xl">Capital</h1>
+      <h2 class="text-5xl">Chapter 1: The Commodity</h2>
+      <h3 class="text-4xl">Compare translations side-by-side</h3>
       <div class="gap-x-12 mygrid">
-        <div class="mysubgrid" set:html={doc1()} />
+        <div class="mysubgrid" set:html={adjustedDoc1} />
         <div class="mysubgrid" set:html={adjustedDoc2} />
       </div>
     </main>
